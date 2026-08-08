@@ -1,15 +1,15 @@
 {
-  "generatedAt": "2026-08-08T16:11:50.8583060Z",
+  "generatedAt": "2026-08-08T16:12:13.7307474Z",
   "refName": "dev",
-  "runId": "31266319737",
+  "runId": "31266336234",
   "artifacts": [
     {
-      "name": "Ignyos-LanPortal-Api-fe463d3.zip",
-      "sha256": "AC9D47E0E24C168D74CA7C3609412E2FC9A7D11F2106B0174C0D55E33BC373D8"
+      "name": "Ignyos-LanPortal-Api-efc0065.zip",
+      "sha256": "7DF9F93694E1FD9B2EF062D9C3ADA5D24EB8AFCB964E5783070284F95FA5695A"
     },
     {
-      "name": "Ignyos-LanPortal-Web-fe463d3.zip",
-      "sha256": "6E6B148E71D6344AB3B4BBE3FA341DE565509E69421E487231FF694D17A48B41"
+      "name": "Ignyos-LanPortal-Web-efc0065.zip",
+      "sha256": "26E36196902CE2DBD206BC516E922DF3C7E201DEF27C583735400FD21ACB1E13"
     }
   ]
 }
