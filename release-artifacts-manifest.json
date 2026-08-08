@@ -1,0 +1,15 @@
+{
+  "generatedAt": "2026-08-08T16:11:50.8583060Z",
+  "refName": "dev",
+  "runId": "31266319737",
+  "artifacts": [
+    {
+      "name": "Ignyos-LanPortal-Api-fe463d3.zip",
+      "sha256": "AC9D47E0E24C168D74CA7C3609412E2FC9A7D11F2106B0174C0D55E33BC373D8"
+    },
+    {
+      "name": "Ignyos-LanPortal-Web-fe463d3.zip",
+      "sha256": "6E6B148E71D6344AB3B4BBE3FA341DE565509E69421E487231FF694D17A48B41"
+    }
+  ]
+}
