@@ -27,7 +27,6 @@
   async function wireSingleDownload() {
     const statusEl = document.getElementById("download-status");
     const linkEl = document.getElementById("download-link");
-    const checksumEl = document.getElementById("checksum-link");
     const releaseNotesEl = document.getElementById("release-notes-link");
 
     if (!statusEl || !linkEl) {
@@ -44,7 +43,6 @@
       const manifest = await response.json();
       const version = manifest.version || "unknown";
       const downloadUrl = manifest.url;
-      const checksumUrl = manifest.checksumUrl || (manifest.url ? manifest.url + ".sha256" : "");
 
       if (!downloadUrl) {
         throw new Error("Manifest missing url");
@@ -64,15 +62,6 @@
       linkEl.classList.remove("disabled");
       linkEl.removeAttribute("aria-disabled");
 
-      if (checksumEl) {
-        checksumEl.textContent = "Checksum (.sha256)";
-        checksumEl.href = checksumUrl || "#";
-        checksumEl.target = "_blank";
-        checksumEl.rel = "noopener";
-        checksumEl.classList.remove("disabled");
-        checksumEl.removeAttribute("aria-disabled");
-      }
-
       if (releaseNotesEl) {
         releaseNotesEl.textContent = "Release notes";
       }
@@ -82,13 +71,6 @@
       linkEl.href = "#";
       linkEl.classList.add("disabled");
       linkEl.setAttribute("aria-disabled", "true");
-
-      if (checksumEl) {
-        checksumEl.textContent = "Checksum unavailable";
-        checksumEl.href = "#";
-        checksumEl.classList.add("disabled");
-        checksumEl.setAttribute("aria-disabled", "true");
-      }
     }
   }
 
