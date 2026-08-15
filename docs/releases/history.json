@@ -1,13 +1,5 @@
 [
   {
-    "version": "0.2.0.11",
-    "lane": "dev",
-    "installerUrl": "https://lanportal-dev.ignyos.com/releases/0.2.0.11/Ignyos-LanPortal-Dev-0.2.0.11.exe",
-    "checksumUrl": "https://lanportal-dev.ignyos.com/releases/0.2.0.11/Ignyos-LanPortal-Dev-0.2.0.11.exe.sha256",
-    "zipUrl": "https://lanportal-dev.ignyos.com/releases/0.2.0.11/Ignyos-LanPortal-QA-0.2.0.11.zip",
-    "publishedAt": "2026-08-15T15:40:44.3380704Z"
-  },
-  {
     "version": "0.2.0.262182240",
     "lane": "production",
     "installerUrl": "https://github.com/Ignyos/LAN-portal/releases/download/v0.2.0.262182240/Ignyos-LanPortal-Installer-0.2.0.262182240.exe",
