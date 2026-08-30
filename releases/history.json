@@ -8,11 +8,11 @@
     "publishedAt": "2026-08-09T00:00:00Z"
   },
   {
-    "version": "0.3.0.3",
+    "version": "0.3.0.4",
     "lane": "dev",
-    "installerUrl": "https://lanportal-dev.ignyos.com/releases/0.3.0.3/Ignyos-LanPortal-Dev-0.3.0.3.exe",
-    "checksumUrl": "https://lanportal-dev.ignyos.com/releases/0.3.0.3/Ignyos-LanPortal-Dev-0.3.0.3.exe.sha256",
-    "zipUrl": "https://lanportal-dev.ignyos.com/releases/0.3.0.3/Ignyos-LanPortal-QA-0.3.0.3.zip",
-    "publishedAt": "2026-08-27T22:04:41.5633890Z"
+    "installerUrl": "https://lanportal-dev.ignyos.com/releases/0.3.0.4/Ignyos-LanPortal-Dev-0.3.0.4.exe",
+    "checksumUrl": "https://lanportal-dev.ignyos.com/releases/0.3.0.4/Ignyos-LanPortal-Dev-0.3.0.4.exe.sha256",
+    "zipUrl": "https://lanportal-dev.ignyos.com/releases/0.3.0.4/Ignyos-LanPortal-QA-0.3.0.4.zip",
+    "publishedAt": "2026-08-30T12:37:50.9865441Z"
   }
 ]
