@@ -1,7 +1,7 @@
 {
-  "version": "0.3.0.7",
-  "url": "https://lanportal-dev.ignyos.com/releases/0.3.0.7/Ignyos-LanPortal-Dev-0.3.0.7.exe",
-  "sha256": "E86BD41DA20460B68C693C3E091637ABB9DBEDADEEE64B877B2153494A9A983D",
-  "publishedAt": "2026-08-31T19:22:45.7315389Z",
+  "version": "0.3.0.8",
+  "url": "https://lanportal-dev.ignyos.com/releases/0.3.0.8/Ignyos-LanPortal-Dev-0.3.0.8.exe",
+  "sha256": "69C2F93B467756B9995F45363125414432816F3EC18F36379F24900BE9CFE159",
+  "publishedAt": "2026-09-02T00:29:06.3271970Z",
   "minSupportedVersion": "0.3.0"
 }
